@@ -1,8 +1,8 @@
-- Banner
+<!--Banner-->
    -  **GIANTHULK**
    - ![**gianthulk**](https://clipart.world/wp-content/uploads/2021/01/Standing-Hulk-clipart-transparent.png)
    - >Bring me thanos!!
- 
+    ---
  - Profiel van het personage
    -  the inevitable hulk
    -  ![**hulkrage**](https://www.plexreel.com/wp-content/uploads/2021/06/skaar-hulk-768x432.jpg)
@@ -28,7 +28,8 @@ SHE HULK
   
   **Drie comics**
 
- **Hulk**
+  <footer>
+  **Hulk**
   - ![hulk](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCh1VBhmKhlbiQFNQcBDh0PCBeFtE6WRgxg&usqp=CAU)
   - > verschijnings datuim: 2014
 
@@ -39,4 +40,4 @@ SHE HULK
  **Hulk Smash Avengers**
   - ![hulk vs avengers](https://i.annihil.us/u/prod/marvel/i/mg/7/20/4fabe29911979/clean.jpg)
   - > verschijnings datuim 9/05/2011
-  
+  <footer\>
