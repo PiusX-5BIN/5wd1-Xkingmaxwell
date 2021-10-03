@@ -2,8 +2,7 @@
    -  **GIANTHULK**
    - ![**gianthulk**](https://clipart.world/wp-content/uploads/2021/01/Standing-Hulk-clipart-transparent.png)
    - >Bring me thanos!!
-    ---
- - Profiel van het personage
+    ------------------------------------------------ Profiel van het personage
    -  the inevitable hulk
    -  ![**hulkrage**](https://www.plexreel.com/wp-content/uploads/2021/06/skaar-hulk-768x432.jpg)
 - >Het is eentje dat een held kan zijn maar kan ook over boord gaan omdat die geen controlen overzich zelf heeft.
