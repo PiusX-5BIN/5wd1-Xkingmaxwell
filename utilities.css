@@ -1,0 +1,18 @@
+/* utilities */
+
+.bg-blue{
+    background-color: blue;
+}
+.bg-grey{
+ color: grey;
+}
+.text-white{
+    color: white;
+}
+
+.shadow-low{
+    box-shadow: 0.5rem 0.5rem o0.5rem;
+}
+.shadow-high{
+    box-shadow: 0rem 0rem 1rem;
+}
