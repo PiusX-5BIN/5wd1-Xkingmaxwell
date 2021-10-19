@@ -1,3 +1,13 @@
+:root {
+    --color-dominant:white;
+    --color-contrast:grey;
+    --color-complement:orange;
+    --family: sans-ferif;
+    --color-accent: red;
+    --card-padding: 1rem;
+
+}
+
 html{
     font-family: serif;
     line-height: 1;
@@ -14,11 +24,11 @@ body{
 }
 
 main{
-    padding: 1rem;
+    padding: var(--card-padding);
 }
 .card{
-    padding: 1rem;
-    margin-bottom: 1rem;
+    padding: var(--card-padding);
+    margin-bottom: var(--card-padding);
 }
 
 #socialemedia{
@@ -27,7 +37,7 @@ main{
 }
 
 #socialeMedia{
-    margin: 1rem;
+    margin: var(--card-padding);
 }
 #socialeMediaLijst{
     margin: 0;
