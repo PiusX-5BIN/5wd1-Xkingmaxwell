@@ -38,3 +38,9 @@ main{
 #socialeMediaLijst>li{
     display: inline;
 }
+
+@media only screen and (min-width:600px){
+    #socialeMedia{
+        background-color: darkblue;
+    }
+}
