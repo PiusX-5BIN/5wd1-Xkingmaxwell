@@ -47,3 +47,54 @@ main{
 #socialeMediaLijst>li{
     display: inline;
 }
+
+#gridContainer{
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 150px 200px auto ;
+
+    grid-template-areas:"menu banner"
+                        "menu main"
+                        ".    main";
+}
+
+#menu{
+    grid-area:menu;
+}
+
+#banner{
+    grid-area:banner;
+}
+#main{
+    grid-area:main;
+}
+@media only screen and (min-width:600px){
+    #mainGridcontainer{
+     display:grid;
+
+     grid-template-columns:1fr 2fr ;
+     grid-template-rows: auto auto auto;
+
+     grid-template-areas: "personal work"
+                           "personal education"
+                           ".        education";
+     grid-gap: 1rem;
+     padding: 1rem;
+    }
+    .card{
+        margin-bottom: 0rem;
+    }
+
+
+    #persoonlijk{
+        grid-area: personal;
+    }
+
+    #werkervaring{
+        grid-area: work;
+    }
+
+    #studies{
+        grid-area: education;
+    }
+}

@@ -1,4 +1,15 @@
 /*compostion*/
+
+:root {
+    --color-dominant:white;
+    --color-contrast:grey;
+    --color-complement:orange;
+    --family: sans-ferif;
+    --color-accent: red;
+    --card-padding: 1rem;
+    --card-distance:2rem;
+
+}
 html{
     font-family: sans-serif;
     line-height: 1,5;
@@ -39,8 +50,36 @@ main{
     display: inline;
 }
 
+
+
 @media only screen and (min-width:600px){
-    #socialeMedia{
-        background-color: darkblue;
+    #mainGridcontainer{
+     display:grid;
+
+     grid-template-columns:1fr 2fr ;
+     grid-template-rows: auto auto auto;
+
+     grid-template-areas: "personal work"
+                           "personal education"
+                           ".        education";
+     grid-gap: 1rem;
+     padding: 1rem;
+    }
+    .card{
+        margin-bottom: 0rem;
+    }
+
+
+    #persoonlijk{
+        grid-area: personal;
+    }
+
+    #werkervaring{
+        grid-area: work;
+    }
+
+    #studies{
+        grid-area: education;
     }
 }
+
